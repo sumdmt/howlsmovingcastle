@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#sayfa {
+  width: 80%;
+  max-width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+
+#banner {
+  background: rgb(81, 174, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 174, 221, 1) 0%,
+    rgba(33, 102, 138, 1) 32%,
+    rgba(209, 238, 252, 1) 89%
+  );
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+}
+
+#vesika {
+  max-width: 150px;
+  height: auto;
+  float: right;
+}
+
+#sosyal {
+  float: right;
+}
+
+#sosyal .ikon {
+  margin-left: 1px;
+  max-width: 30px;
+  margin-top: 110px;
+  display: flexbox;
+}
+
+#anamenu {
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#anamenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#anamenu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#anamenu ul li:last-child {
+  margin-right: 0;
+}
+
+#anamenu ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#anamenu ul li a:hover {
+  color: gray;
+}
+
+#icerik {
+  box-sizing: border-box;
+  float: left;
+  width: 60%;
+  min-height: 400px;
+  background-color: white;
+  border: 1px solid black;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+#icerik img {
+  max-width: 100%;
+  height: auto;
+}
+
+#yanmenu {
+  min-height: 563px;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+#yanmenu .baslik {
+  margin-top: 0;
+}
+
+#yanmenu p {
+  margin-bottom: 10px;
+}
+
+#altmenu {
+  clear: both;
+  background: rgb(81, 174, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 174, 221, 1) 0%,
+    rgba(33, 102, 138, 1) 32%,
+    rgba(209, 238, 252, 1) 89%
+  );
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#altmenu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#altmenu a:hover {
+  text-decoration: underline;
+}
+
+.kucukmetin {
+  font-size: 10px;
+}
